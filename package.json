@@ -4,7 +4,9 @@
   "version": "4.0.0",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
+    "@tailwindcss/ui": "^0.3.0",
     "gatsby": "2.23.11",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "2.4.11",
     "gatsby-plugin-offline": "3.2.13",
     "gatsby-plugin-postcss": "2.3.4",
@@ -13,7 +15,8 @@
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "6.1.0"
+    "react-helmet": "6.1.0",
+    "typeface-open-sans": "^0.0.75"
   },
   "keywords": [
     "gatsby",

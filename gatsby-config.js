@@ -1,6 +1,5 @@
 const resolveConfig = require("tailwindcss/resolveConfig");
 const tailwindConfig = require("./tailwind.config.js");
-
 const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
@@ -34,6 +33,16 @@ module.exports = {
             ? [require(`cssnano`)]
             : []),
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `arvo`,
+          `open sans`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
     `gatsby-plugin-offline`,
