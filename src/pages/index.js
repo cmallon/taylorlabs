@@ -10,19 +10,19 @@ function IndexPage() {
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
         title="Taylorlabs - Bespoke Digital Agency focused on Web Development"
       />
-      <section className="text-gray-700 body-font relative py-64">
+      <section className="text-gray-700 body-font relative py-16 md:py-64">
         <div className="container px-5 mx-auto flex flex-col h-full justify-center items-center">
-          <span className="text-pink-500 screaming text-center">
+          <span className="text-pink-500 sm:screaming screaming text-center">
             taylorlabs.
           </span>
-          <h1 className="text-5xl font-bold text-center">
+          <h1 className="text-3xl md:text-5xl font-bold text-center">
             We are a bespoke digital agency with a goal of improving your daily
             life through custom web development.
           </h1>
         </div>
       </section>
       <section className="body-font relative">
-        <div className="container px-5 py-24 mx-auto flex flex-col">
+        <div className="container px-5 py-8 md:py-24 mx-auto flex flex-col">
           <h1 className="text-3xl sm:text-5xl font-extrabold text-pink-500">
             our mission.
           </h1>
@@ -38,7 +38,7 @@ function IndexPage() {
       </section>
       <section>
         <div className="bg-white">
-          <div className="container px-5 py-24 mx-auto flex flex-col h-full justify-center items-center py-24">
+          <div className="container px-5 py-8 md:py-24 mx-auto flex flex-col h-full justify-center items-center py-24">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
               <div>
                 <h2 className="text-3xl leading-9 font-extrabold text-pink-500 sm:text-5xl sm:leading-10">

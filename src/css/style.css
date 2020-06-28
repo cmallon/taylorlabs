@@ -15,9 +15,7 @@
   stroke-linecap: square;
   stroke-miterlimit: 3;
 }
-.screaming {
-  font-size: 8rem;
-}
+
 h1,
 h2,
 h3,
@@ -25,12 +23,22 @@ h4,
 h5 {
   @apply font-sans font-black;
 }
+.screaming {
+  @apply font-black;
+  font-size: 8rem;
+}
 p {
   @apply font-sans font-medium mt-3 text-2xl leading-9 text-gray-900;
   font-family: Open Sans;
 }
-.screaming {
-  @apply font-black;
+
+@media (max-width: 640px) {
+  .screaming {
+    font-size: 5rem;
+  }
+  p {
+    @apply text-xl;
+  }
 }
 
 /*! purgecss end ignore */

@@ -35,8 +35,8 @@ function Layout({ children }) {
               </h2>
             </div>
           </div>
-          <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col bg-pink-500">
-            <div className="w-1/3 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <div className="container px-5 py-8 md:py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col bg-pink-500">
+            <div className="w-full md:w-1/3 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@ function Layout({ children }) {
               </p>
             </div>
             <div className="w-1/4"></div>
-            <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center w-2/3">
-              <div className="md:w-1/2 w-full px-8">
+            <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 text-left w-full md:w-2/3 -mx-4">
+              <div className="w-1/2 px-4">
                 <h2 className="title-font font-bold text-gray-900 tracking-wide text-xl mb-3">
                   Offices
                 </h2>
@@ -82,7 +82,7 @@ function Layout({ children }) {
                   </li>
                 </nav>
               </div>
-              <div className="md:w-1/2 w-full px-4">
+              <div className="w-1/2 px-4">
                 <h2 className="title-font font-bold text-gray-900 tracking-wide text-xl mb-3">
                   Learn More
                 </h2>
